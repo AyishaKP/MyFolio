@@ -1,0 +1,122 @@
+/* Container becomes a glassy card */
+.repo-card {
+  width: 100%;
+  border-radius: 18px;
+  border: 1px solid transparent;
+  padding: 22px 22px 18px;
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, .35);
+    backdrop-filter: blur(8px);
+}
+
+/* Optional extra class if you want different background behavior */
+.glass-card {
+  background: rgba(30, 32, 43, 0.65);
+}
+
+.repo-icon-wrap {
+  width: 150px;
+  height: 150px;
+  border-radius: 16px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, .06);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .08);
+}
+
+.repo-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.repo-title {
+  margin: 6px 0 0;
+  font-size: 22px;
+  line-height: 1.25;
+  text-align: center;
+  font-weight: 700;
+}
+
+.repo-desc {
+  margin: 0;
+  text-align: left;
+  font-size: 15px;
+    line-height: 1.6;
+    opacity: 0.95;
+}
+
+/* multi-line clamp like screenshot */
+.clamp-6 {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.repo-meta {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.repo-date {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.repo-langs {
+  margin-left: auto;
+}
+
+/* Buttons */
+.repo-btns {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.pill-btn {
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+  transition: transform .06s ease, opacity .2s ease;
+}
+
+.pill-btn:hover {
+  transform: translateY(-1px);
+  opacity: .95;
+}
+
+.pill-btn.subtle {
+  background: rgba(255, 255, 255, .08);
+  color: #fff;
+}
+
+/* Grid for cards like screenshot */
+.repo-cards-div-main {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 22px;
+}
+
+/* Optional: soften page edges like screenshot glow */
+.projects-main .repo-card:after {
+  content: "";
+  inset: 0;
+  position: absolute;
+  pointer-events: none;
+}

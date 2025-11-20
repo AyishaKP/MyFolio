@@ -1,0 +1,163 @@
+{
+  "data": [
+    {
+      "id": "WEXP001",
+    "name": "IN3",
+      "createdAt": "2024-12-01T00:00:00Z",
+      "description": [
+        "Designed and developed Flutter-based SaaS modules, building scalable, reusable component libraries to accelerate feature delivery.",
+        "Implemented state management using BLoC and Streams, optimized performance, and ensured responsive cross-platform UI/UX.",
+        "Led end-to-end development lifecycle from planning, coding, testing, and UAT to deployment, ensuring compliance and stability.",
+        "Delivered reusable SaaS modules and Salesforce dashboards that optimized client operations, contributing to a 30% improvement in service adoption and subscription revenues."
+      ],
+      "playstoreUrl": "",
+      "appstoreUrl": "",
+      "languages": [
+        { "name": "Flutter", "iconifyClass": "logos-flutter" },
+        { "name": "Salesforce", "iconifyClass": "logos-salesforce" },
+        { "name": "Dart", "iconifyClass": "logos-dart" }
+      ]
+    },
+    {
+      "id": "WEXP002",
+    "name": "Ayshei",
+      "createdAt": "2020-10-01T00:00:00Z",
+      "description": [
+        "Collaborated with cross-functional teams to identify user-centric features and optimize UX.",
+        "Engineered secure fintech applications integrating Emirates ID OCR and EFR for customer onboarding, achieving 30% growth in acquisition and transactions.",
+        "Led development of ecommerce and retail apps (Ayshei, Dalma Mall) using Flutter with API, indoor navigation, and loyalty modules.",
+        "Integrated Mappedin SDK for indoor navigation and designed reusable Flutter UI libraries across projects.",
+        "Conducted R&D on AI-driven technologies, improving accessibility through voice-enabled banking features."
+      ],
+    "playstoreUrl": "https://play.google.com/store/apps/details?id=com.ayshei&hl=en",
+      "appstoreUrl": "https://apps.apple.com/ae/app/ayshei/id1624567890",
+      "languages": [
+        { "name": "Flutter", "iconifyClass": "logos-flutter" },
+        { "name": "Dart", "iconifyClass": "logos-dart" },
+        { "name": "Firebase", "iconifyClass": "logos-firebase" },
+        { "name": "Swift", "iconifyClass": "logos-swift" }
+      ]
+    },
+    {
+      "id": "WEXP003",
+    "name": "Index Exchange — XFI (Fintech, Bank)",
+      "createdAt": "2021-02-01T00:00:00Z",
+      "description": [
+        "Engineered a secure and scalable banking app with KYC onboarding using Emirates ID OCR, biometric face recognition (EFR), and seamless payment flows.",
+        "Developed core Flutter modules for onboarding, payments, and currency transfers with PCI-aware secure coding practices.",
+        "Collaborated with cybersecurity and QA teams to ensure compliance and top-tier security standards.",
+        "Delivered reusable Flutter UI components and SDK integrations for fintech reusability across projects."
+      ],
+    "playstoreUrl": "https://play.google.com/store/apps/details?id=com.index.xfi.wallet&hl=en",
+      "appstoreUrl": "https://apps.apple.com/ae/app/index-exchange/id1608745123",
+      "languages": [
+        { "name": "Flutter", "iconifyClass": "logos-flutter" },
+        { "name": "Dart", "iconifyClass": "logos-dart" },
+        { "name": "AWS", "iconifyClass": "logos-aws" }
+      ]
+    },
+    {
+      "id": "WEXP004",
+    "name": "Dalma Mall App (Retail)",
+      "createdAt": "2022-05-01T00:00:00Z",
+      "description": [
+        "Defined customer-centric features in collaboration with marketing and retail operations.",
+        "Integrated Mappedin SDK for precise indoor navigation and loyalty experiences.",
+        "Improved customer engagement and retail footfall by 32% through intelligent loyalty and navigation features.",
+        "Coordinated feature rollouts and MVP launches across departments ensuring brand alignment."
+      ],
+      "playstoreUrl": "https://play.google.com/store/apps/details?id=com.dalmamall.app",
+      "appstoreUrl": "https://apps.apple.com/ae/app/dalma-mall/id1629876543",
+      "languages": [
+        { "name": "Flutter", "iconifyClass": "logos-flutter" },
+        { "name": "Firebase", "iconifyClass": "logos-firebase" },
+        { "name": "Mappedin SDK", "iconifyClass": "simple-icons:mapbox" }
+      ]
+    },
+    {
+      "id": "WEXP005",
+    "name": "EMR Token",
+      "createdAt": "2020-01-01T00:00:00Z",
+      "description": [
+        "Built dynamic UIs using Stateless/Stateful Widgets and BLoC architecture.",
+        "Integrated secure API communication, local storage, and WebSocket implementations.",
+        "Executed CI/CD pipelines (Azure DevOps) to improve release reliability.",
+        "Enhanced app reliability by 25% across EMRToken, EmaarOne, and Dashboard apps."
+      ],
+      "playstoreUrl": "https://play.google.com/store/apps/details?id=com.emaarone.app",
+      "appstoreUrl": "https://apps.apple.com/ae/app/emaar-one/id1503022204",
+      "languages": [
+        {
+            "name": "Flutter",
+            "iconifyClass": "logos-flutter"
+        },
+        { "name": "Azure", "iconifyClass": "logos-azure" }
+      ]
+    },
+    {
+      "id": "WEXP006",
+    "name": "AWOK.com",
+      "createdAt": "2019-12-01T00:00:00Z",
+      "description": [
+        "Revamped the AWOK.com ecommerce mobile app using Flutter and BLoC pattern.",
+        "Designed and implemented UI adhering to brand and usability standards.",
+        "Integrated Algolia Search for faster product discovery and improved experience.",
+        "Managed REST API communication and participated in Agile Scrum sprints via JIRA."
+      ],
+      "playstoreUrl": "https://play.google.com/store/apps/details?id=com.awok.app",
+      "appstoreUrl": "https://apps.apple.com/ae/app/awok-online-shopping/id1024624275",
+      "languages": [
+        { "name": "Flutter", "iconifyClass": "logos-flutter" },
+        { "name": "Dart", "iconifyClass": "logos-dart" },
+        { "name": "REST", "iconifyClass": "simple-icons:rest" }
+      ]
+    },
+    {
+      "id": "WEXP007",
+    "name": "Askedoo",
+      "createdAt": "2017-09-01T00:00:00Z",
+      "description": [
+        "Developed complex iOS Q&A app (Askedoo) ensuring pixel-perfect UI and performance.",
+        "Implemented backend integration using Alamofire, Realm, and PromiseKit.",
+        "Optimized video streaming and data visualization for smooth interactions."
+      ],
+      "playstoreUrl": "",
+      "appstoreUrl": "https://apps.apple.com/ae/app/askedoo/id1369127567",
+      "languages": [
+        { "name": "Swift", "iconifyClass": "logos-swift" },
+        { "name": "Realm", "iconifyClass": "logos-realm" }
+      ]
+    },
+    {
+      "id": "WEXP008",
+    "name": "Yala Toys",
+      "createdAt": "2017-06-01T00:00:00Z",
+      "description": [
+        "Independently developed and launched the Yala Toys ecommerce iOS application.",
+        "Used Alamofire for networking and Realm for optimized local storage.",
+        "Integrated ObjectMapper and PromiseKit for efficient model mapping."
+      ],
+      "playstoreUrl": "",
+      "appstoreUrl": "https://apps.apple.com/ae/app/yala-toys/id1432769875",
+      "languages": [
+        { "name": "Swift", "iconifyClass": "logos-swift" },
+        { "name": "Realm", "iconifyClass": "logos-realm" }
+      ]
+    },
+    {
+      "id": "WEXP009",
+    "name": "KFIC",
+      "createdAt": "2015-09-01T00:00:00Z",
+      "description": [
+        "Built secure banking utilities for KFIC Bank with Arabic localization and error handling.",
+        "Integrated secure RESTful APIs for financial transactions ensuring compliance."
+      ],
+      "playstoreUrl": "https://play.google.com/store/apps/details?id=com.kfic.app",
+      "appstoreUrl": "https://apps.apple.com/kw/app/kfic/id1094813053",
+      "languages": [
+        { "name": "Swift", "iconifyClass": "logos-swift" },
+        { "name": "Objective-C", "iconifyClass": "logos-objective-c" }
+      ]
+    }
+  ]
+}
